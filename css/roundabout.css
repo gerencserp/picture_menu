@@ -1,0 +1,53 @@
+body {
+    padding: 50px;
+}
+
+.pic {
+    width: 230px;
+    height: 152px;
+}
+
+.roundabout-holder {
+    list-style: none;
+    padding: 0;
+    margin: 30px;
+    height: 300px;
+    width: 90%;
+}
+
+.roundabout-moveable-item {
+    height: 270px;
+    width: 300px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.roundabout-in-focus {
+    cursor: auto;
+}
+
+.pic {
+    transition: all 0.3s ease-in-out;
+}
+
+.pic:hover {
+    transform: scale(1.9);
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 50px;
+        margin-top: 40px;
+    }
+    .pic {
+        width: 100px;
+        height: 66px;
+    }
+    .roundabout-holder {
+        list-style: none;
+        padding: 0;
+        margin: 0px;
+        height: 200px;
+        width: 65%;
+    }
+}
